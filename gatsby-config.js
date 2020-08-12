@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gatsby-starter-contentstack",
   siteMetadata: {
     title: 'Gatsby Contentstack starter',
   },

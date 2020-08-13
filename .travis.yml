@@ -4,7 +4,7 @@ before_script:
 install:
   - npm install
 node_js:
-  - "10"
+  - "12"
 deploy:
   provider: script
   script: cd docs/ && yarn install && yarn run deploy
